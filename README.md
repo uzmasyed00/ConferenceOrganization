@@ -5,7 +5,7 @@ Download and install Google App Engine SDK. The isntructions are provided here:
 https://cloud.google.com/appengine/downloads
 If using Windows or Mac, Google App Engine will have a nice GUI icon. If using Linux, use command line tools such as 
 devappserver.py and appconfig.py
-Install Git
+Install Git.
 From the terminal, navigate to working directory, run “git clone http://github.com/uzmasyed00/ConferenceOrganization”. This will give you a directory named ConferenceOrganization.
 In a web browser, go to "console.developers.google.com" and create a new project. Insert the project id in the application field in app.yaml in Conference Central directory.
 Then, in Google App Engine launcher, add an existing application and navigate to the cloned directory.
