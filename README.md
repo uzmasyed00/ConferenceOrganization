@@ -1,8 +1,22 @@
 # ConferenceOrganization
 
+Download and install Python 2.7 from https://www.python.org/downloads/ if not already installed on your machine 
+Download and install Google App Engine SDK. The isntructions are provided here:
+https://cloud.google.com/appengine/downloads
+If using Windows or Mac, Google App Engine will have a nice GUI icon. If using Linux, use command line tools such as 
+devappserver.py and appconfig.py
+Install Git
+From the terminal, navigate to working directory, run “git clone http://github.com/uzmasyed00/ConferenceOrganization”. This will give you a directory named ConferenceOrganization.
+In a web browser, go to "console.developers.google.com" and create a new project. Insert the project id in the application field in app.yaml in Conference Central directory.
+Then, in Google App Engine launcher, add an existing application and navigate to the cloned directory.
+Run the application.
+In a browser of your choice,, navigate to localhost:port/_ah/api/explorer and start working with the end points.
+
+
 #Task1
 
-A session is implemented as a child of a conference entity. A websafe conference key is passed in the request that can be used to query the conference entity the key pertaains to. this key is then set as the parent of a session entity in the datastore.
+A session is implemented as a child of a conference entity. A websafe conference key is passed in the request that can be used to query the conference entity the key pertaains to. This key is then set as the parent of a session entity in the datastore.
+Speaker is one of the properties of the session entity and is implemented as a string.
 
 #Task 3 -  Additional queries
 The 2 additional queries are as follows:
